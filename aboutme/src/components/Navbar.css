@@ -1,0 +1,56 @@
+/* src/components/Navbar.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #333;
+  color: #fff;
+  padding: 10px 20px;
+  z-index: 1000;
+}
+
+.navbar.light {
+  background: #f8f9fa;
+  color: #000;
+}
+
+.navbar.dark {
+  background: #333;
+  color: #fff;
+}
+
+.navbar-logo img {
+  height: 40px; /* Adjust the height as needed */
+}
+
+.navbar-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar-links li {
+  margin: 0 15px;
+}
+
+.navbar-links li a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.mode-toggle {
+  background: none;
+  border: none;
+  color: inherit;
+  font-size: 24px;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.mode-toggle:hover {
+  opacity: 0.7;
+}

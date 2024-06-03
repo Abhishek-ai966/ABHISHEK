@@ -1,0 +1,29 @@
+/* src/components/MainContent.css */
+.about-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.profile-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.about-text {
+  max-width: 600px; /* Adjust the width as needed */
+}
+
+.image-container {
+  display:list-item;
+  flex-wrap:right top;
+  gap: 540px;
+}
+
+.image-container img {
+  width: 150px; /* Adjust the image width as needed */
+  height: 150px; /* Adjust the image height as needed */
+  object-fit: cover;
+}
