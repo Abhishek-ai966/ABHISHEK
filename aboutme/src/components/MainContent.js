@@ -68,8 +68,55 @@ const MainContent = () => {
         <p>This is the education section.</p>
       </section>
       <section id="skills">
-        <h2>Skills</h2>
-        <p>This is the skills section.</p>
+       <div class="main-section">
+  <div class="container">
+    <h2 class="heading-text">My Skills</h2>
+    <div class="width-50">
+      <div class="skill">
+        <b>HTML</b>
+        <span>95%</span>
+        <div>
+          <span style="width:95%"></span>
+        </div>
+      </div>
+      <div class="skill">
+        <b>CSS</b>
+        <span>91%</span>
+        <div>
+          <span style="width:91%"></span>
+        </div>
+      </div>
+      <div class="skill">
+        <b>JavaScript</b>
+        <span>90%</span>
+        <div>
+          <span style="width:85%"></span>
+        </div>
+      </div>
+      <div class="skill">
+        <b>React js</b>
+        <span>90%</span>
+        <div>
+          <span style="width:79%"></span>
+        </div>
+      </div>
+    </div>
+    <div class="width-50">
+      <div class="width-50">
+        <div role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="--value:65">React-10</div>
+      </div>
+      <div class="width-50">
+        <div role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="--value:85">Jquery-5</div>
+      </div>
+      <div class="width-50">
+        <div role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="--value:65">Node-10</div>
+      </div>
+      <div class="width-50">
+        <div role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="--value:85">CMD-60</div>
+      </div>
+    </div>
+  </div>
+</div>
       </section>
       <section id="projects">
         <h2>Projects</h2>
